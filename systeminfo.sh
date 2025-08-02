@@ -10,13 +10,13 @@ cat << _EOF_
     <title>$TITLE</title>
 </head>
 
-    <body>
-        <h1>$TITLE</h1>
-        <p>$TIME_STAMP</p>
-        <h2>System Information</h2>
-        <pre>
-            $(uname -a)
-        </pre>
-    </body>
+<body>
+    <h1>$TITLE</h1>
+    <p>$TIME_STAMP</p>
+    <h2>System Information</h2>
+    <pre>
+        $(uname -a)
+    </pre>
+</body>
 </html>
 _EOF_
