@@ -1,23 +1,15 @@
-# DevOps System Info Project
+# 🖥️ DevOps System Info
 
-## Author
+A simple Bash script that generates system information and runs inside a Docker container. The project includes a CI/CD pipeline using GitHub Actions to build the Docker image automatically on every push.
 
-Made by Keni Sackey as part of DevOps learning practice.
+## 📦 Features
+- Generates system info in HTML format
+- Containerized using Docker
+- Automated builds via GitHub Actions
 
-This project is a simple demonstration of DevOps fundamentals:
-- Bash scripting ✅
-- Docker containerization ✅
-- CI pipeline using GitHub Actions ✅
+## 🚀 How to Run
 
-## 📄 What it does
-
-Generates a basic HTML page with system information (hostname, date, OS details) using a bash script.
-
-## 🐳 Docker
-
-The script is packaged into a Docker image using a Dockerfile.
-
-To build and run locally:
+### 1. Clone the repository
 ```bash
-docker build -t systeminfo .
-docker run systeminfo
+git clone https://github.com/Kats-19/devops-system-info.git
+cd devops-system-info
