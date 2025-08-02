@@ -19,4 +19,4 @@ cat << _EOF_
     </pre>
 </body>
 </html>
-_EOF_x
+_EOF_
